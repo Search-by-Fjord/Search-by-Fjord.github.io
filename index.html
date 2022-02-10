@@ -45,11 +45,11 @@ var currentTime = new Date().getHours();
 var element = document.getElementById("gradient");
 
 if (document.body) {
-    if (5 <= currentTime && currentTime < 7) {
+    if (5 <= currentTime && currentTime < 10) {
         element.className = "twilight";
-    } else if (7 <= currentTime && currentTime < 9) {
+    } else if (10 <= currentTime && currentTime < 11) {
         element.className = "sunrise";
-    } else if (9 <= currentTime && currentTime < 18) {
+    } else if (11 <= currentTime && currentTime < 18) {
         element.className = "day";
     } else if (18 <= currentTime && currentTime < 20) {
         element.className = "evening";
